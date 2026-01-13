@@ -1,0 +1,1352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.nav-search {
+    position: relative;
+}
+
+.nav-search input {
+    border-radius: 0.9rem;
+    border: 0.5rem;
+    width: 28rem;
+    height: 1.8rem;
+    outline: none;
+}
+
+.nav-search input::placeholder {
+    color: #372B1F;
+    padding-left: 0.1rem;
+}
+
+.user-cursor {
+    cursor: pointer;
+}
+
+.nav-search i {
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: 0.4rem;
+    cursor: pointer;
+}
+
+.nav-search input[type="text"] {
+    padding-left: 1.2rem;
+    padding-right: 2.7rem;
+}
+
+.relax-color {
+    background-color: #d3d3d3;
+    border: 0.02rem solid #959292;
+}
+
+.recharge-img {
+    margin-top: -2rem;
+}
+
+.recharge {
+    margin-top: -1.5rem;
+}
+
+.nav-ul-list a:hover {
+    color: #DB9328;
+}
+
+.dated-sec {
+    padding-left: 6rem;
+}
+
+.recharged-img img {
+    margin-top: -2rem;
+    height: 20rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+.rechargedd-img img {
+    margin-top: -2rem;
+    height: 20rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+.sub-hero-banner {
+    padding: 12rem 0 0 6rem;
+}
+
+/*          SUB-HEROES (HERO PAGES)      */
+.text-weights span {
+    color: #111;
+}
+
+.text-weights {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #1e1e1eb8;
+}
+
+.email {
+    outline: none;
+    border: 0.1rem solid #eceaeb;
+    background-color: #f3f3f3;
+}
+
+
+
+.back-button {
+    border: 0.15rem solid #959292;
+
+}
+
+
+
+.img-link1 {
+    width: 45%;
+    height: 45%;
+}
+
+.img-link2 {
+    width: 45%;
+    height: 45%;
+}
+
+.img-link3 {
+    width: 55%;
+    height: 55%;
+}
+
+.img-link4 {
+    width: 50%;
+    height: 505%;
+}
+
+.img-link5 {
+    width: 70%;
+    height: 79%;
+}
+
+.img-link6 {
+    width: 60%;
+    height: 60%;
+}
+
+@media(max-height:700px) {
+    .terms-condition{
+        font-size: 0.3rem;
+    }
+    .smaller-truncate-width{
+        width: 11rem;
+         margin-left: -1.5rem; 
+        
+    }
+
+    .cart-img{
+        width: 60%;
+        height: 30%;
+        aspect-ratio: 4/3;
+    }
+
+    .cart-img img{
+        width: 5rem;
+        height: 7rem;
+    }
+    /* otp section */
+    .otp-text-1{
+        font-size: medium;
+        font-weight: 550;
+        margin-top: -1rem;
+    }
+    .otp-text-2{
+        font-size: small;
+        font-weight: 400;
+    }
+
+    .opt-inputBox{
+        margin-top: 1rem;
+    }
+
+    .opt-inputBox input{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+
+    /* logout section */
+    .logoutBtn {
+        position: absolute;
+        top: 40rem;
+        right: 0;
+        left: 0;
+        /* bottom: 3rem; */
+        padding-bottom: 3.2rem;
+
+    }
+
+    .homeimg{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .homeimg img{
+        aspect-ratio: 7/6;
+        object-fit: cover;
+        object-position: 0 25%;
+    }
+
+    .home-product-price{
+        font-size: small;
+        
+    }
+
+    .truncate-Phone_size, .smaller-truncate{
+        font-size: 0.8rem;
+        margin: auto 0;
+    }
+    
+    .icreDecre{
+        padding-left: 0.4rem;
+    }
+
+    .product-container-div{
+        height: 4rem;
+         width: 80%;   
+    }
+    .product-container-text{
+        width: 70%;
+    }
+}
+
+@media (max-width:767px) {
+
+    .terms-condition{
+        font-size: 0.3rem;
+    }
+    .email-footer{
+        width: 85%;
+        outline: none;
+        border-bottom:0.1rem solid black;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        background-color: #DB9328;
+        transition: 0.5s ease;
+        padding-left: 0.5rem;
+    }
+    .email-footer input[type='email']{
+        background-color: #DB9328;
+    }
+    .email-footer[type='email']:focus{
+        background-color: #fff;
+        transition: 0.5s ease-in;
+        border-bottom:none;
+    }
+
+    .footer{
+        background-color: #DB9328;
+    }
+    .hero-sub-img {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .dated-sec {
+        padding-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    .dated-down {
+        margin-bottom: 1rem;
+    }
+
+    .toCenter {
+        display: flex;
+        padding-top: 1.4rem;
+    }
+
+    .img-link1,
+    .img-link2 {
+        width: 26%;
+        height: 26%;
+    }
+
+    .img-link3,
+    .img-link6 {
+        width: 33%;
+        height: 33%;
+    }
+
+    .img-link4 {
+        width: 30%;
+    }
+
+    .img-link5 {
+        width: 40%;
+    }
+
+    .cart-btn-empty {
+        width: 16rem;
+    }
+
+    
+    .profileDetail,
+    .phoneWidth {
+        width: 95%;
+        height: auto;
+    }
+
+    .shift {
+        margin-left: -3.5rem;
+        margin-top: 1rem;
+        text-overflow: ellipsis;
+        text-wrap: wrap;
+    }
+
+    .truncate-Phone_size{
+        text-overflow: ellipsis;
+        text-wrap: nowrap;
+        overflow: hidden;
+        
+    }
+    .smallText2 {
+        text-wrap: nowrap;
+        padding-right: 4rem;
+    }
+
+    .priceText {
+        font-size: 1rem;
+        margin-left: -3.4rem;
+    }
+
+    .mobile-back,.tabCurency,.CountryCurrency,.backText,.setting, .topList,.cartAdd,.imgDivTop {
+        display: none;
+    }
+
+    .icreDecre {
+        width: 1.5rem;
+        outline: none;
+        border: none;
+        margin-left: 0.5rem;
+    }
+
+    .textDetails {
+        font-size: 1.3rem;
+    }
+
+    .showBtn {
+        width: 90%;
+        margin: 0 0.1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .showBtn:nth-child(2) {
+        background-color: #DB9328;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .jeanBtnColor {
+        background-color: #DB9328;
+    }
+    .jeanBtnColor:hover {
+        background-color: #eeba6d;
+        transition: 0.5s ease;
+    }
+
+    .jeanhead {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        width: 6rem;
+    }
+
+    .sizes {
+        width: 3rem;
+    }
+
+    .smallText {
+        font-size: 0.8rem;
+        flex-wrap: nowrap;
+        color: rgb(105, 103, 103);
+    }
+
+
+    .logoutBtn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .showDiv {
+        overflow-x: scroll;
+    }
+
+    .showDiv img {
+        width: 60%;
+        object-fit: cover;
+        aspect-ratio: 3/4;
+    }
+
+    .JeanImg{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .JeanImg img{
+        aspect-ratio: 5/5.4;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .jeanBoxWidth{
+        width: 48.5%;
+        height: auto;
+    }
+
+    
+    
+    .lineHeight{
+        margin-top: -1rem;
+    }
+
+    .TopView{
+        width: 65%;
+        border-top-left-radius: 
+        0.5rem;
+    }
+
+    .TopView2{
+        width: 35%;
+        border-top-right-radius: 0.5rem;
+    }
+    .TopView2 div{
+        
+        border-top-right-radius: 0.5rem;
+    }
+
+    .carousel-itemIMg{
+        background-image: url('../images/homepage3.jpeg');
+        height: 20vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position:top 6% left 0;
+        background-size:118%;
+    }
+    .carousel-itemIMg:nth-child(2){
+        background-image: url('../images/body-massage.jpeg');
+        
+    }
+    .carousel-itemIMg:nth-child(3){
+        background-image: url('../images/changing-room.jpeg');
+        
+    }
+    
+    .carousel-captionMargin {
+        margin-left: -2rem;
+    }
+
+    .carousel-caption p{
+        font-size: 1rem;
+        font-weight: 600;
+        text-shadow: 0 2px #ffffffb4;
+        font-stretch:1rem;
+    }
+    .carouselText{
+        font-size: 1.5rem;
+        text-shadow: 0 1px #ffffffb4;
+        color: #111;
+    }
+
+    .opt-inputBox input{
+        width: 3rem;
+        height: 3rem;
+        margin: 0 0.5rem;
+        outline:none;
+        border: 1px solid #959292;
+    }
+
+    /* otp section */
+    .otp-text-1{
+        font-size: medium;
+        font-weight: 550;
+        margin-top: -1rem;
+    }
+    .otp-text-2{
+        font-size: small;
+        font-weight: 400;
+    }
+
+    .opt-inputBox{
+        margin-top: 1rem;
+    }
+
+    .opt-inputBox input{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .contactUsSection h1{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .cart-img {
+        width: 20%;
+        height: 30%;
+        aspect-ratio: 7/6;
+    }
+
+    .cart-img img{
+        width: 70%;
+        height: 90%;
+    } 
+    
+    .cart_empty-margin-top{
+        margin-top: 6rem;
+    }
+
+    .StoreImg{
+        width: 100%;
+        height: 6rem;
+    }
+
+    .StoreImg img{
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 5/3;
+        object-fit:cover;
+        object-position:0 36%;
+    }
+
+
+
+    .store-margin{
+        margin-top: 10%;
+    }
+
+    .nav-top-blog-margin{
+        margin-top: 12%;
+    }
+
+    .t-shirt-section{
+        margin-top: 6.9rem;
+    }
+
+    .homeimg{
+        width: 6rem;
+        height: 4.5rem;
+        
+    }
+
+    .homeimg img{
+        aspect-ratio: 7/6;
+        object-fit: cover;
+        object-position: 0 25%;
+    }
+
+    .home-product-price{
+        font-size: small;
+        
+    }
+
+    .product-container-div{
+        height: 6.5rem;
+         width: 90%;   
+    }
+    .product-container-text{
+        width: 80%;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px) {
+    .paddingJean{
+        padding-left: 0.32rem;
+    }
+    .hero-sub-img {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .recharged-img img {
+        margin-top: -0.5rem;
+        height: 24rem;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .rechargedd-img img {
+        height: 22rem;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .stay {
+        width: 50%;
+    }
+
+    .img-link1,.img-link2,.img-link3,.img-link4,.img-link6 {
+        width: 13%;
+        height: 15%;
+    }
+
+    .img-link5 {
+        width: 13.5%;
+    }
+
+    .icon {
+        font-size: 1.6rem;
+        margin-top: 1.4rem;
+    }
+
+    .cart-img {
+        width: 20%;
+        height: 30%;
+        aspect-ratio: 7/6;
+    }
+
+    .cart-img img{
+        width: 70%;
+        height: 90%;
+    }
+
+    .icreDecre {
+        width: 1.5rem;
+        outline: none;
+        border: none;
+    }
+
+    .Del-icon {
+        margin-left: 10rem;
+    }
+
+    .textImg {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .smallText {
+        font-size: 1.5rem;
+    }
+
+    .textPersonal,
+    .address,
+    .Accounts {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .icreDecres {
+        width: 0.5rem;
+    }
+
+    .smallText2 {
+        text-wrap: nowrap;
+        padding-right: 6rem;
+    }
+
+    .profImg {
+        width: 50%;
+    }
+
+    .textProfile {
+        margin-left: -5rem;
+    }
+
+    .textProfile1, .smallText  {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .logoutBtn {
+        width: 70%;
+        margin-top: 2rem;
+    }
+
+    .phoneCurency,
+    .phoneCountry, .tabAddBtn{
+        display: none;
+    }
+
+    .T-Shirt {
+        width: 13vw;
+        height: 20vh;
+    }
+
+    .T-Shirt img {
+        width: 13vw;
+        object-fit: contain;
+    }
+
+    .showSmallPics {
+        width: 3.5rem;
+        height: 4.5rem;
+    }
+
+    .showSmallPicsdown {
+        height: 2.5rem;
+        width: 3.6rem;
+        background-color: #292828;
+    }
+
+    .showBigPics {
+        width: 15rem;
+        height: 16rem;
+    }
+
+    .tabWidth {
+        width: 96%;
+    }
+
+    .jeanBtnColor {
+        background-color: #DB9328;
+    }
+
+    .jeanhead {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        width: 20rem;
+    }
+
+    .lineHeight{
+        margin-top: -1rem;
+    }
+
+    .JeanImg{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .JeanImg img{
+        aspect-ratio: 3.5/3.5;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .jeanBoxWidth{
+        width: 80%;
+    }
+
+    .jeanBtnHover:hover{
+        color: #DB9328;
+    }
+
+    .topText{
+        font-size: 3rem;
+        font-weight: 700;
+        text-shadow:2px 3px 5px black;
+    }
+
+    .storeBoxWidth{
+        /* width: 5%; */
+        height: 15rem;
+        background-color: red;
+    }
+
+    .StoreImg{
+        width: 100%;
+        height: 10rem;
+    }
+    .StoreImg img{
+        aspect-ratio: 4/4;
+        object-fit: cover;
+        width: 100%;
+        object-position: center 26%;
+    }
+
+    .optional-figure{
+        height: 10vh;
+    } 
+    .optional-figure a img{
+        height: 100%;
+        aspect-ratio: 4/4;
+        object-fit: cover;
+        width: 100%;
+        object-position: 0 26%;
+    } 
+    
+        .TopView{
+            width: 65%;
+            border-top-left-radius: 
+            0.5rem;
+        }
+    
+        .TopView2{
+            width: 35%;
+            border-top-right-radius: 0.5rem;
+        }
+        .TopView2 div{
+            
+            border-top-right-radius: 0.5rem;
+        }
+    
+
+    .carousel-itemIMg{
+        background-image: url('../images/homepage3.jpeg');
+        height: 23vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position:top 10% left 0;
+        background-size:118%;
+    }
+    .carousel-itemIMg:nth-child(2){
+        background-image: url('../images/body-massage.jpeg');
+        
+    }
+    .carousel-itemIMg:nth-child(3){
+        background-image: url('../images/changing-room.jpeg');
+        
+    }
+    
+    .carousel-captionMargin {
+        margin-left: -5rem;
+    }
+
+    .carousel-indicatorsBtn{
+        padding-left: -7rem;
+    }
+
+    .carousel-caption p{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-shadow: 0 2px #ffffffb4;
+        font-stretch:1rem;
+    }
+    .carouselText{
+        font-size: 2.2rem;
+        text-shadow: 0 1px #ffffffb4;
+        color: #111;
+    }
+
+    .email-footer{
+        width: 70%;
+        outline: none;
+        border-bottom:0.1rem solid black;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        background-color: #DB9328;
+        transition: 0.5s ease;
+        padding-left: 1.5rem;
+    }
+    .email-footer input[type='email']{
+        background-color: #DB9328;
+        
+    }
+    .email-footer[type='email']:focus{
+        background-color: #fff;
+        transition: 0.5s ease-in;
+        border-bottom:none;
+    }
+
+    .footer{
+        background-color: #DB9328;
+    }
+    .footer-header{
+        font-size: 1.4rem;
+    }
+
+    .SignUPImg{
+        display: none;
+    }
+
+    .opt-inputBox input{
+        width: 5rem;
+        height: 5rem;
+        margin: 0 1rem;
+        outline:none;
+        border: 1px solid #959292;
+    }
+
+    .account-imageBackground{
+        background-image: url('../images/create-account-image.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 98.5vh;
+        background-color: #f3f3f3;
+        background-blend-mode:overlay;
+    }
+
+    .contactUsSection-img{
+        height: 10rem;
+    }
+
+     .nav-top-margin{
+        margin-top: 12%;
+    }
+
+    .cart_empty-margin-top{
+        margin-top: 9rem;
+    }
+
+    .bootstrap-icons{
+        font-weight: 800;
+    }
+
+    /* .StoreImg{
+        width: 70%;
+        height: 6rem;
+    }
+
+    .StoreImg img{
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 2/2;
+        object-fit:cover;
+        object-position:0 36%;
+    } */
+
+    .store-margin{
+        margin-top: 15%;
+    }
+
+    .nav-top-blog-margin{
+        margin-top: 15%;
+    }
+
+    .hero-sub-img {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .t-shirt-section{
+        margin-top: 6.5rem;
+    }
+
+    .home-product-price{
+        font-size: small;
+        font-weight: bolder;
+    }
+
+    .storeImgDiv{height: 4rem;}
+
+    .product-container-div{
+        height: 6.5rem;
+         width: 70%;   
+    }
+    .product-container-text{
+        width: 70%;
+    }
+
+    .scrowForLaptop.scrowForLaptop::-webkit-scrollbar{
+        scroll-behavior: smooth;
+        display: none;
+    }
+
+    .paddingForLargeScreen{
+        padding-left:5rem ;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .home-margin-top{margin-top: 8rem;}
+    .bootstrap-icons{
+        font-weight: 900;
+    }
+
+    .signinBackground{
+        background-image: url('../images/create-account-image.jpeg');
+        height: 100vh;
+    }
+    .logoutBtn {
+        width: 70%;
+        margin-top: 2rem;
+    }
+
+    .smallText {
+        font-size: 0.7.5rem;
+        font-weight: 600;
+    }
+
+    .logoutBtn {
+        width: 50%;
+    }
+
+    .textProfile {
+        margin-left: -8rem;
+    }
+
+    .textProfile1 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .profImg {
+        width: 40%;
+    }
+
+    .textImg {
+        font-size: 1.25rem;
+        color: #292828;
+        font-weight: 600;
+    }
+
+    .smallText2 {
+        text-wrap: nowrap;
+        padding-right: 6rem;
+    }
+
+    .cart-img {
+        width: 20%;
+        height: 25%;
+        aspect-ratio: 7/6;
+    }
+
+    .cart-img img{
+        width: 65%;
+        height: 70%;
+    }
+
+    .tab {
+        font-size: 1.6rem;
+        margin-top: 1.2rem;
+    }
+
+    .icreDecre {
+        width: 3rem;
+        border: none;
+        outline: none;
+    }
+
+    .cart-con {
+        width: 60%;
+        height: auto;
+    }
+
+    .textPersonal,
+    .address,
+    .Accounts {
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+    }
+
+    .showSmallPics {
+        width: 3rem;
+        height: 4.5rem;
+    }
+
+    .showSmallPicsdown {
+        height: 3rem;
+        width: 3.6rem;
+        background-color: #292828;
+    }
+
+    .showBigPics {
+        width: 15rem;
+        height: 15.5rem;
+    }
+
+    .tabWidth {
+        width: 96%;
+        height:100%;
+    }
+
+    .jeanBtnColor {
+        background-color: #DB9328;
+        
+    }
+
+    .jeanhead {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        width: 25rem; 
+    }
+
+    .JeanImg{
+        width: 100%; 
+    }
+
+    .JeanImg img{
+        aspect-ratio: 6/5.8;
+        object-fit: cover;
+        width: 100%;
+        object-position: 0 15%;
+    }
+
+    .jeanBoxWidth{
+        width: 85%;
+    }
+      
+      .previewBtnHover {
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .previewBtnHover:hover {
+        transform: scale(1.05);
+      }
+      
+
+    .jeanBtnHover:hover{
+        font-weight: 700;
+    }
+
+    .topText{
+        font-size: 3rem;
+        font-weight: 700;
+        text-shadow:2px 3px 5px black;
+    }
+
+    .StoreImg{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .StoreImg img{
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 4/5;
+        object-fit:cover;
+        object-position:0 36%;
+    }   
+    
+        .TopView{
+            width: 65%;
+            border-top-left-radius: 
+            0.5rem;
+        }
+    
+        .TopView2{
+            width: 35%;
+            border-top-right-radius: 0.5rem;
+        }
+        .TopView2 div{
+            
+            border-top-right-radius: 0.5rem;
+        }
+    
+
+    .lineHeight{
+        margin-top: -0.6rem;
+    }
+
+    .email-footer{
+        width: 50%;
+        outline: none;
+        border-bottom:0.1rem solid black;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        background-color: #DB9328;
+        transition: 0.5s ease;
+        padding-left: 1.5rem;
+    }
+    .email-footer input[type='email']{
+        background-color: #DB9328;
+        padding-left: 5rem;
+    }
+    .email-footer[type='email']:focus{
+        background-color: #fff;
+        transition: 0.5s ease-in;
+        border-bottom:none;
+    }
+
+    .footer{
+        background-color: #DB9328;
+    }
+
+    .SignUPImg{
+        display: none;
+    }
+
+    .opt-inputBox input{
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+        outline:none;
+        border: 1px solid #959292;
+    }
+
+     .nav-top-margin{
+        margin-top: 9%;
+    }
+
+    .cart_empty-margin-top{
+        margin-top: 9rem;
+    }
+
+    .nav-profile-top-margin, .nav-top-blog-margin{
+        margin-top: 10%;
+    }
+
+    .store-margin{
+        margin: 12% auto 0;
+    }
+
+    .hero-sub-img {
+        height: 30vh;
+        width: 100%;
+    }
+    .t-shirt-section{
+        margin-top: 6.9rem;
+    }
+
+    .storeImgDiv{height: 6.5rem;}
+
+    .product-container-div{
+        height: 6.5rem;
+         width: 70%;   
+    }
+    .product-container-text{
+        width: 70%;
+    }
+    .scrowForLaptop.scrowForLaptop::-webkit-scrollbar{
+        scroll-behavior: smooth;
+        display: none;
+    }
+
+    
+}
+
+@media (min-width:75rem) {
+    .cart-img {
+        width: 12%;
+        height: 25%;
+        aspect-ratio: 7/6;
+    }
+
+    .cart-img img{
+        width: 65%;
+        height: 70%;
+    }
+
+    .inputs{
+        height: 1.5em;
+        width:1.5em;
+        margin-right: 1rem;
+        
+    }
+
+    .corals-left{
+        width: 50px;
+        height: 50px;
+        background-color: rgba(217, 217, 224,0.8);
+        
+        position: absolute;
+        top: 4rem;
+        left: 2rem;
+        border-radius: 50%;
+        padding: 0.4rem 0 0 0.6rem;
+    }
+    .corals-right{
+        width: 50px;
+        height: 50px;
+        background-color: rgba(217, 217, 224,0.8);
+    
+        position: absolute;
+        top: 4rem;
+        right: 2rem;
+        border-radius: 50%;
+        padding: 0.4rem 0 0 0.6rem;
+    }
+
+    .border-location{
+        border-left: 1px solid black;
+    }
+
+    .corals-left:hover, .corals-right:hover{
+        background-color: rgba(217, 217, 224); 
+        transition: 0.5s ease; 
+    }
+
+    .previewBtn-div{
+        display: none;
+        
+    }
+    .scrowForLaptop.scrowForLaptop::-webkit-scrollbar{
+        scroll-behavior: smooth;
+        display: none;
+    }
+
+    .account-image img{
+        height: 85.5vh;
+        width: 100%;
+    }
+    .account-image img{
+        aspect-ratio: 4/5;
+    }
+    .nav-top-margin{
+        margin-top: 8%;
+    }
+
+    .t-shirt-section{
+        margin-top: 6.9rem;
+        background-color: #fff;
+    }
+
+    .main{
+        margin-top: 8.3%;
+    }
+
+    .colour-showCase{
+        background-color: #f3f3f3;
+    }
+
+    .hero-sub-img {
+        height: 52vh;
+        width: 100%;
+    }
+
+    .home-margin-top{
+        margin-top: 9rem;
+    }
+
+    .paddingForLargeScreen{
+        padding-left: 8rem;
+    }
+}
+
+.form-bg {
+    background-color: #F9F9F9;
+}
+
+.contact-sec {
+    margin-top: 3rem;
+}
+
+.form-resize {
+    resize: none;
+}
+
+.allyellowBtns{
+    background-color: #DB9328;
+}
+.allyellowBtns:hover{
+    background-color: #af7620;
+    transition: 0.5s ease-in-out;
+}
+.backToLoginBtn:hover{
+    background-color: #ada9a3;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-cart {
+    border-bottom: 1px solid rgba(44, 44, 44, 0.466);
+    margin-top: 1rem;
+}
+
+.comfirmPasswordInput{
+    outline: none;
+    border:1px solid #cec0c0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none; 
+  margin: 0; 
+}

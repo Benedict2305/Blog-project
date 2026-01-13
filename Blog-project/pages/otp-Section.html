@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>otp-section</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/44aac79a4a.js"></script>
+    <link rel="stylesheet" href="../Assets/css/boostrap.css">
+    <script src="../Assets/css/blog-js.js"></script>
+    <link rel="stylesheet" href="../Assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+
+<body class="bg-body-secondary">
+    <div class="fixed-top ">
+        <nav class="navbar navbar-expand-xl bg-body-secondary text-white py-1 yyy">
+            <div class="container-fluid d-flex justify-content-between px-md-4 toCenter">
+                <a href="#" class="navbar-brand fw-bolder text-warning d-flex align-items-center">
+                    <button class="navbar-toggler me-2 me-md-3 d-md-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mynavbar">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <button class="navbar-toggler me-2 me-md-3 d-none d-md-block d-xl-none" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#mynavbars">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <h3 class="text-muted my-auto"><span class="text-warning">OH</span> Fashions</h3>
+                </a>
+                <div class="d-flex align-items-center d-xl-block d-xxl-block d-none">
+                    <form class="d-flex nav-search ">
+                        <input class="form-control me-2" type="text" placeholder="I'm looking for...">
+                        <i class="fa-solid fa-magnifying-glass text-secondary"></i>
+                    </form>
+                </div>
+                <div
+                    class="text-secondary d-flex justify-content-between justify-content-md-evenly align-items-center w-25">
+                    <a href="contact.html" class="text-decoration-none text-dark">
+                        <i class="bi bi-person fs-3 fw-bolder"></i>
+                    </a>
+                    <a href="cart.html" class="text-decoration-none">
+                        <i class="bi bi-cart fs-5 pe-auto text-dark bootstrap-icons"></i>
+                    </a>
+                    <a href="favourite.html" class="text-decoration-none">
+                        <i class="bi bi-heart fs-5 bootstrap-icons text-dark pe-auto"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <nav
+            class="navbar d-flex align-items-center justify-content-center d-none d-md-block d-xl-none d-xxl-none bg-body-secondary">
+            <div class="d-flex align-items-center justify-content-center">
+                <form class="d-flex nav-search ">
+                    <input class="form-control me-2" type="text" placeholder="I'm looking for...">
+                    <i class="bi bi-search"></i>
+                </form>
+            </div>
+        </nav>
+
+        <nav
+            class="navbar-nav navbar-expand-xl bg-white py-2 d-none d-xl-block d-xxl-block border-bottom border-top border-dark">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-8 d-flex justify-content-between">
+                        <div
+                            class="d-flex align-items-center px-3 bg-light border border-secondary align-items-center ms-5 rounded-pill">
+                            <h6 class="fw-bolder me-2 ">Browser category</h6>
+                            <button class="navbar-toggler d-flex align-items-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#mynavbars-linking" aria-expanded="false"
+                                aria-controls="mynavbars-linking">
+                                <span class=" border border-muted rounded"><i
+                                        class="fa-solid fa-bars border rounded p-lg-1"></i></span>
+                            </button>
+                        </div>
+                        <ul class="navbar-nav d-flex ms-5 ">
+                            <li class="nav-items px-3 me-3 nav-ul-list"><a class="nav-link  fw-bolder" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-items px-3 me-3 nav-ul-list"><a class="nav-link  fw-bolder "
+                                    href="store.html">Store</a>
+                            </li>
+                            <li class="nav-items px-3 me-3 nav-ul-list"><a class="nav-link fw-bolder "
+                                    href="blog-proj.html">Blog</a>
+                            </li>
+                            <li class="nav-items px-3 me-3 nav-ul-list"><a class="nav-link  fw-bolder"
+                                    href="contact-us.html">Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div style=" position: relative; height: auto; background-color: white; top: 0;">
+            <div class="collapse collapse-horizontal" id="mynavbars"
+                style="position: absolute; z-index: 999; transition: 0.5s ease-in;">
+                <div class="card card-body bg-white" style="width: 15rem;">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="./index.html" class="nav-link text-dark fw-bolder fs-5">Home</a></li>
+                        <li class="nav-item"><a href="store.html" class="nav-link text-dark fw-bolder fs-5">Store</a>
+                        </li>
+                        <li class="nav-item"><a href="blog-proj.html" class="nav-link text-dark fw-bolder fs-5">Blog</a>
+                        </li>
+                        <li class="nav-item"><a href="contact-us.html" class="nav-link text-dark fw-bolder fs-5">Contact
+                                Us</a></li>
+                        <li class="nav-item">
+                            <hr class="hr divider text-dark fs-5">
+                        </li>
+                    </ul>
+                    <p>
+                        <button class="btn fs-5 fw-bolder d-flex align-items-center" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseCategories" aria-expanded="false"
+                            aria-controls="collapseCategories">
+                            <span class=" me-5">Categories</span><i class="bi bi-caret-down-fill"></i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseCategories" style="transition: 0.5s ease-in;">
+
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle   align-items-center dropdown-toggle-split d-flex justify-content-between w-75 mx-auto fs-5 link-warning text-dark border-0 "
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tops
+                            </button>
+                            <ul class="dropdown-menu ms-5 " style="transition: 0.5s ease-out;">
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">T-shirts</a></li>
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">Blouses</a></li>
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">Tank tops</a></li>
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">Polo shirts</a></li>
+                                <li><a class="dropdown-item link-warning text-dark  fs-5    " href="#">Sweatshirts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                LegWear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Jeans</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Pants</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Leggins</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Skirts</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Shorts</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 justify-content-between d-flex">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex  align-items-center dropdown-toggle-split w-75  justify-content-between mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dresses
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Casual dresses</a>
+                                </li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Formal</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Maxi</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Mini</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Cocktail</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Outwear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Jackets</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Bomber</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Leather</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Denim</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Coats
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Trench</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Pea</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Parkas</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Suits
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Business</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Tuxedos</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Blazers</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Pants</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">jackets</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Swimwear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Bikinis</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">One-piece
+                                        swimsuits</a>
+                                </li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Rash guards</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Cover-ups</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="dropend bg-white">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Footwear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Sneakers</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Boots</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Sandals</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Flats</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Heels</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div style=" position: relative; height: auto; background-color: white; top: 0;">
+            <div class="collapse collapse-horizontal" id="mynavbars"
+                style="position: absolute; z-index: 999; transition: 0.5s ease-in;">
+                <div class="card card-body bg-white" style="width: 15rem;">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="./index.html" class="nav-link text-dark fw-bolder fs-5">Home</a></li>
+                        <li class="nav-item"><a href="store.html" class="nav-link text-dark fw-bolder fs-5">Store</a>
+                        </li>
+                        <li class="nav-item"><a href="blog-proj.html" class="nav-link text-dark fw-bolder fs-5">Blog</a>
+                        </li>
+                        <li class="nav-item"><a href="contact-us.html" class="nav-link text-dark fw-bolder fs-5">Contact
+                                Us</a></li>
+                        <li class="nav-item">
+                            <hr class="hr divider text-dark fs-5">
+                        </li>
+                    </ul>
+                    <p>
+                        <button class="btn fs-5 fw-bolder d-flex align-items-center" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseCategories" aria-expanded="false"
+                            aria-controls="collapseCategories">
+                            <span class=" me-5">Categories</span><i class="bi bi-caret-down-fill"></i>
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseCategories" style="transition: 0.5s ease-in;">
+
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle   align-items-center dropdown-toggle-split d-flex justify-content-between w-75 mx-auto fs-5 link-warning text-dark border-0 "
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tops
+                            </button>
+                            <ul class="dropdown-menu ms-5 " style="transition: 0.5s ease-out;">
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">T-shirts</a></li>
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">Blouses</a></li>
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">Tank tops</a></li>
+                                <li><a class="dropdown-item link-warning text-dark fs-5 " href="#">Polo shirts</a></li>
+                                <li><a class="dropdown-item link-warning text-dark  fs-5    " href="#">Sweatshirts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                LegWear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Jeans</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Pants</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Leggins</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Skirts</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Shorts</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend w-100 justify-content-between d-flex">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex  align-items-center dropdown-toggle-split w-75  justify-content-between mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dresses
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Casual dresses</a>
+                                </li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Formal</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Maxi</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Mini</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Cocktail</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Outwear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Jackets</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Bomber</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Leather</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Denim</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Coats
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Trench</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Pea</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Parkas</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Suits
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Business</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Tuxedos</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Blazers</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Pants</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">jackets</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropend">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Swimwear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Bikinis</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">One-piece
+                                        swimsuits</a>
+                                </li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Rash guards</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Cover-ups</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="dropend bg-white">
+                            <button
+                                class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center dropdown-toggle-split w-75 mx-auto fs-5 link-warning text-dark border-0"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Footwear
+                            </button>
+                            <ul class="dropdown-menu ms-5" style="transition: 0.5s ease-in;">
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Sneakers</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Boots</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Sandals</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Flats</a></li>
+                                <li><a class="dropdown-item fs-5 link-warning text-dark" href="#">Heels</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- phone section nav -->
+        <nav class="navbar position-relative">
+            <div class="d-flex align-items-center position-absolute top-0 w-75 z-3">
+                <div class="collapse navbar-collapse bg-white w-100" id="mynavbar"
+                    style="max-height: 80vh; overflow: scroll; transition: 0.5s ease-in;">
+                    <ul class="navbar-nav d-flex  ">
+                        <li class="nav-items px-3 me-3 nav-ul-list"><a class="nav-link fw-bolder fs-5" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-items px-3 me-3 nav-ul-list" nav-ul-list><a class="nav-link fw-bolder  fs-5"
+                                href="store.html">Store</a></li>
+                        <li class="nav-items px-3 me-3 nav-ul-list"><a class="nav-link fw-bolder fs-5"
+                                href="blog-proj.html ">Blog</a></li>
+                        <li class="nav-items px-3 me-3 nav-ul-list"><a class="nav-link fw-bolder fs-5"
+                                href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <hr class="hr divider fw-bolder fs-5">
+                        </li>
+                    </ul>
+                    <div class="sidebar ">
+                        <ul class="nav flex-column">
+                            <div class="nav-item">
+
+                                <a href="" class="nav-link text-dark fw-bolder fs-5 d-flex justify-content-between "
+                                    data-bs-toggle="collapse" data-bs-target="#collapseCategories" aria-expanded="false"
+                                    aria-controls="collapseCategories">
+                                    category <i class="bi bi-plus"></i>
+                                </a>
+                                <div class="collapse" id="collapseCategories" style="transition: 0.5s ease-in;">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder fs-5 d-flex justify-content-between"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTops"
+                                                aria-expanded="false" aria-controls="collapseTops">Tops <i
+                                                    class="bi bi-plus "></i></a>
+                                            <div class="collapse" id="collapseTops" style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">T-shirt</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Blouses</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Sweatshirts</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Polo
+                                                            shirts</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Tank
+                                                            tops</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder d-flex justify-content-between fs-5"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseLegwears"
+                                                aria-expanded="false" aria-controls="collapseLegwears">LegWears <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseLegwears"
+                                                style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Jeans</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Shorts</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Skirts</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Leggins</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Pants</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder d-flex justify-content-between fs-5"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseDresses"
+                                                aria-expanded="false" aria-controls="collapseDresses">Dresses <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseDresses"
+                                                style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Casual
+                                                            dresses</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Formal</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Maxi</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Mini</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Cocktail</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder d-flex justify-content-between fs-5"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOutwears"
+                                                aria-expanded="false" aria-controls="collapseOutwears">Outwear <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseOutwears"
+                                                style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Jackets</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Bomber</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Leather</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Denim</a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder fs-5 d-flex justify-content-between"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseCoat"
+                                                aria-expanded="false" aria-controls="collapseCoat">Coats <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseCoat" style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Trench</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Pea</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Parkas</a>
+                                                    </li>
+
+
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder d-flex justify-content-between fs-5"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseActiveWear"
+                                                aria-expanded="false" aria-controls="collapseActiveWear">Activewear <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseActiveWear"
+                                                style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Sport
+                                                            bras</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Athletic
+                                                            shorts</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Workout
+                                                            tops</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Jogging
+                                                            suits</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder d-flex justify-content-between fs-5"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSuite"
+                                                aria-expanded="false" aria-controls="collapseSuite">Suits <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseSuite" style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Business</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Tuxedos</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Blazers</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Pants</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">jackets</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder d-flex justify-content-between fs-5"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseSwimmer"
+                                                aria-expanded="false" aria-controls="collapseSwimmer">Swimwear <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseSwimmer"
+                                                style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Bikinis</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">One-piece
+                                                            swimsuits</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href="" class="nav-link text-dark link-warning fs-5">Rash
+                                                            guards</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Cover-ups</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href=""
+                                                class="nav-link text-dark fw-bolder d-flex justify-content-between fs-5"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseFootwear"
+                                                aria-expanded="false" aria-controls="collapseFootwear">Footwear <i
+                                                    class="bi bi-plus"></i></a>
+                                            <div class="collapse" id="collapseFootwear"
+                                                style="transition: 0.5s ease-in;">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Sneakers</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Boots</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Sandals</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Flats</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a href=""
+                                                            class="nav-link text-dark link-warning fs-5">Heels</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- laptops side navs -->
+
+        <nav class="nav w-50  d-none d-lg-block position-relative" style="transition: 5s ease; ">
+            <div class="collapse text-dark py-2 border border-secondary rounded position-absolute"
+                id="mynavbars-linking" style="transition: .5s ease; background-color: rgba(185, 180, 180,0.9);">
+                <div class=" d-flex">
+                    <div class="">
+                        <ul class="navbar-nav">
+                            <span class="fw-bolder ms-3">Tops</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="#">T-shirt</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Blouses</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Polo
+                                    shirts</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Sweatshirts</a></li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <span class="fw-bolder ms-3">LegWears</span>
+
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="#">Jeans</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Pants</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Skirts</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Shorts</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="">
+                        <ul class="navbar-nav">
+                            <span class="nav-text ms-3 fw-bolder">Outwears</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="#">Jackets</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Bomber</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Leather</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Denim</a></li>
+                        </ul>
+
+                        <ul class="navbar-nav">
+                            <span class="ms-3 fw-bolder">Dresses</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning" href="#">Casual
+                                    dresses</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Formal</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Maxi</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Mini</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Cocktail</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <ul class="navbar-nav">
+                            <span class="nav-text fw-bolder ms-3">Activewear</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning" href="#">Sport
+                                    bras</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Athletic
+                                    shorts</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Workout
+                                    tops</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Jogging
+                                    suits</a></li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <span class="nav-text ms-3 fw-bolder">Suits</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="#">Business</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Tuxedos</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Blazers</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Pants</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">jackets</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <ul class="navbar-nav">
+                            <span class="nav-text ms-3 fw-bolder">Swimwear</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="#">Bikinis</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Rash guards</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Cover-ups</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <span class="nav-text ms-3 fw-bolder">Footwear</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="#">Sneakers</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Boots</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Sandals</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Flats</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Heels</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="">
+                        <ul class="navbar-nav">
+                            <span class="nav-text ms-3 fw-bolder">Coats</span>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="#">Trench</a>
+                            </li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="blog-proj.html">Pea</a></li>
+                            <li class="nav-item px-3 me-3"><a class="nav-link text-muted link-warning"
+                                    href="contact.html">Parkas</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="account-imageBackground">
+
+
+        <section class="">
+            <div class="col-xl-6">
+                <div class=" phoneWidth tabWidth px-xl-5 px-2 mx-auto mb-md-2 ">
+                    <div class="d-flex align-items-center justify-content-between ps-lg-2">
+                        <div class="my-3">
+                            <i
+                                class="fa-solid fa-arrow-left-long px-2 px-sm-4 px-md-4 py-2 py-sm-2 border border-dark rounded">
+                                <span class="ms-1 backText">Back</span>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid mx-auto">
+            <div class="row  align-items-center d-flex" style="height: 85vh;">
+                <div class="col-10 col-sm-6 col-md-8 col-lg-5 col-xl-4 mx-auto d-flex flex-column align-items-center ">
+                    <h2 class="text-center otp-text-1">Enter the code sent to your Email</h2>
+                    <h5 class="text-center otp-text-2">Enter Code below</h5>
+                    <div class="opt-inputBox ">
+                        <input type="text" class="rounded ps-md-4 ps-3">
+                        <input type="text" class="rounded ps-md-4 ps-3">
+                        <input type="text" class="rounded ps-md-4 ps-3">
+                        <input type="text" class="rounded ps-md-4 ps-3">
+                    </div>
+                    <input type="button" value="Reset password"
+                        class="btn btn-block w-100  text-white allyellowBtns mt-4 btn-sm">
+                    <button class="border-0  btn btn-block w-100 mt-3 backToLoginBtn btn-sm mb-2"><i
+                            class="fa-solid fa-arrow-left-long px-2 px-sm-4 px-md-4 py-2 py-sm-2 rounded">
+                            <span class="ms-1 fw-bold otp-text-2">Back to login</span>
+                        </i></button>
+
+                    <h5 class=" otp-text-2">Didn’t receive email? <a href=""
+                            class="text-dark text-decoration-none fw-bold">Click to resend</a></h5>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="../Assets/blog-js.js"></script>
+</body>
+
+</html>
